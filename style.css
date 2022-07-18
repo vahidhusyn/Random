@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.heading{
+    font-size: 50px;
+    padding-bottom: 4rem;
+    color: #fff;
+}
+
+#intro{
+    width:100%;
+    height: 100%;
+    font-size: 2rem;
+    text-align: center;
+    /* background-color:rgb(255, 171, 212); */
+    padding: 8rem 0 8rem;
+    background: linear-gradient(45deg,#F17C58,#E94584,#24AADB,#27DBB1,#FFDC18,#FF3706);
+    background-size: 600% 100%;
+    animation: gradient 14s linear infinite;
+    animation-direction: alternate;
+    /* color: #fff; */
+}
+
+
+
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+#word{
+    text-align: center;
+    background-color:rgb(121, 144, 213);
+    /* background-color: #fff; */
+    padding: 8rem 8rem 8rem;
+}
+
+.wordgen{
+    text-align: center;
+    padding: 2rem 6rem 1.5rem;
+    font-size: 2rem;
+}
+
+#color{
+    text-align: center;
+    padding: 5rem 5rem 5rem;
+}
+
+.colorgen{
+    text-align: center;
+    padding: 6rem 2rem;
+    margin: 2rem 2rem 2rem;
+    width: auto;
+    /* color: #fff; */
+
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(68, 68, 68);
+    padding: 1.25rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+

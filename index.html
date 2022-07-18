@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Word Generator</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <script src="script.js"></script>
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <section id="intro">
+        <div class="container-fluid">
+            <h1 class="heading">Random Word Generator</h1>
+            <P>Generate new words</P>
+        </div>
+    </section>
+
+    <section id="word">
+        <div class="container-fluid">
+            <h2>Generate a word:</h2>
+            <p class="wordgen"></p>
+            <!-- <button onclick="gentext();">Generate</button> -->
+            <button type="button" class="btn btn-primary" onclick="gentext();">Generate</button>  
+        </div>
+    </section>
+
+    <section id="color">
+        <div class="container-fluid">
+            <h2>Generate a colour:</h2>
+            <div class="colorgen"></div>
+            <button type="button" class="btn btn-primary" onclick="gencolor();">Generate</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            Copyright © Vahid Hussain
+        </div>
+    </footer>
+</body>
+</html>
